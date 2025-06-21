@@ -1,0 +1,24 @@
+[project]
+name = "gemini-api"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "wenzhen",email = "wenzhen.du@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.10,<4.0.0"
+dependencies = [
+    "google-genai (>=1.20.0,<2.0.0)",
+    "mcp (>=1.9.4,<2.0.0)",
+    "rich-logging (>=0.0.1,<0.0.2)",
+    "google-api-python-client (>=2.172.0,<3.0.0)",
+    "google-auth-httplib2 (>=0.2.0,<0.3.0)",
+    "google-auth-oauthlib (>=1.2.2,<2.0.0)",
+    "python-dotenv (>=1.1.0,<2.0.0)",
+    "markdown (>=3.8.2,<4.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
