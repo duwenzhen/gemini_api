@@ -25,7 +25,7 @@ server_params = StdioServerParameters(
     args=["src/mcp-gmail-fetcher/mcp_server.py",
           "--connection_type", "stdio"],
     cwd=".",
-    env={"GMAIL_API_KEY": "apikey"},
+    env={"GMAIL_API_KEY": api_key},
 )
 
 async def run(prompt_content):
